@@ -1,0 +1,7 @@
+[user]
+	email = wenchiching@gmail.com
+	name = wenchiching
+[color]
+	ui = auto
+[core]
+	editor = vim
