@@ -29,4 +29,4 @@ endif
 imap <C-F11> <C-R>=strftime("%x %H:%M:%S")<BAR><CR>. Owen.<ESC> <C-R>
 let b:match_words='\<ifeq\>\|\<ifneq\>:\<else\>:\<endif\>'
 highlight ERROR_pattern ctermbg=darkred guibg=darkred
-match ERROR_pattern /E:.*/
+match ERROR_pattern /^E:.*/
