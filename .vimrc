@@ -31,3 +31,5 @@ let b:match_words='\<ifeq\>\|\<ifneq\>:\<else\>:\<endif\>'
 highlight ERROR_pattern ctermbg=darkred guibg=darkred
 match ERROR_pattern /^E:.*/
 execute pathogen#infect()
+" for ctags Ctrl + ] open in new tab
+nmap <c-]> :tab tag <c-r><c-w><cr>
