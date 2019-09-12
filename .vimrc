@@ -16,8 +16,9 @@ set list
 set listchars=tab:>-,trail:-
 syntax on
 highlight Comment ctermfg=darkcyan
-highlight Search term=reverse ctermbg=4 ctermfg=7
-highlight CursorLine cterm=none ctermbg=0 
+highlight Search term=reverse ctermbg=1 ctermfg=6
+highlight CursorLine cterm=NONE ctermbg=darkgrey ctermfg=white guibg=darkred guifg=white
+highlight CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
 set background=dark
 if has("autocmd")
    autocmd BufRead *.txt set tw=78
