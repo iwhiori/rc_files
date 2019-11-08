@@ -16,9 +16,8 @@ set list
 set listchars=tab:>-,trail:-
 syntax on
 highlight Comment ctermfg=darkcyan
-highlight Search term=reverse ctermbg=1 ctermfg=6
-highlight CursorLine cterm=NONE ctermbg=darkgrey ctermfg=white guibg=darkred guifg=white
-highlight CursorColumn cterm=NONE ctermbg=darkred ctermfg=white guibg=darkred guifg=white
+highlight CursorLine cterm=NONE ctermbg=darkgrey guibg=darkred
+highlight CursorColumn cterm=NONE ctermbg=darkred guibg=darkred
 set background=dark
 if has("autocmd")
    autocmd BufRead *.txt set tw=78
@@ -27,7 +26,7 @@ if has("autocmd")
       \   exe "normal g'\"" |
       \ endif
 endif
-imap <C-F11> <C-R>=strftime("%x %H:%M:%S")<BAR><CR>. Owen.<ESC> <C-R>
+imap <C-F10> <C-R>=strftime("%x %H:%M:%S")<BAR><CR>. Owen.<ESC> <C-R>
 let b:match_words='\<ifeq\>\|\<ifneq\>:\<else\>:\<endif\>'
 highlight ERROR_pattern ctermbg=darkred guibg=darkred
 match ERROR_pattern /^E:.*/

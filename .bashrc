@@ -49,10 +49,6 @@ export LANGUAGE=en_US.utf8
 export LC_CTYPE=en_US.utf8
 export LC_ALL=en_US.utf8
 export EDITOR=vim
-export PATH=${PATH}:/home/owen_wen/git.htc.com/htc_pp_tools/ota_utility
-export PATH=${PATH}:/home/owen_wen/Downloads/android-sdk-linux/tools
 source ~/.gitrc
 source ~/.git-completion.rc
-export USE_CCACHE=1
-export CCACHE_DIR=/disk2/CCACHE
 ulimit -n 4096
