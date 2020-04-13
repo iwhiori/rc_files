@@ -34,6 +34,7 @@ alias h='history 50'
 alias htop='htop -d 5'
 alias less='less -i'
 alias j='jobs'
+alias pullhead='git pull origin $(git rev-parse --abbrev-ref HEAD)'
 case "$-" in
     *i*)
         bind '"\x1b\x5b\x41":history-search-backward'
