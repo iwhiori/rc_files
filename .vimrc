@@ -34,3 +34,4 @@ execute pathogen#infect()
 " for ctags Ctrl + ] open in new tab
 nmap <c-]> :tab tag <c-r><c-w><cr>
 set nowrapscan
+":set nofixendofline
