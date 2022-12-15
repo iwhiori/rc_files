@@ -1,0 +1,3 @@
+[submodule ".vim/bundle/autosess"]
+	path = .vim/bundle/autosess
+	url = https://github.com/powerman/vim-plugin-autosess.git
