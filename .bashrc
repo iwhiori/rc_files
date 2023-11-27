@@ -47,8 +47,7 @@ HISTSIZE=1000000
 HISTCONTROL=ignoredups
 export LANG=C
 export LANGUAGE=en_US.utf8
-export LC_CTYPE=en_US.utf8
-export LC_ALL=en_US.utf8
+export LC_ALL=C.utf8
 export EDITOR=vim
 source ~/.gitrc
 source ~/.git-completion.rc
